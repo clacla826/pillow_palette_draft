@@ -1,1 +1,1 @@
-# pillow_palette_draft
+# pillow_palette

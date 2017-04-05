@@ -1,0 +1,84 @@
+/*////////////////////PICK YOUR PATTERN////////////////////////*/
+.container-fluid5 {
+  height: 900px;
+  background-color: #f9a997;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: row /* works with row or column */
+  flex-direction: row;
+  -webkit-align-items: center;
+  align-items: flex-start;
+  -webkit-justify-content: center;
+  justify-content: center;
+}
+
+.titleHeaderSt3 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 48px;
+  margin-top: 4%;
+  text-align: center;
+}
+
+.subtitleSt3{
+  font-family: 'Heebo', sans-serif;
+  font-size: 28px;
+  text-align: center; 
+  margin-top: 2%;
+}
+
+.patternImages {
+    width: 80%;
+    height: auto;  
+    margin-top: 10%; 
+    margin-left: 10%;
+}
+
+
+
+.pattern1 .choices {
+  padding-top: 20%;
+}
+
+.pattern2 .choices {
+  padding-top: 20%;
+}
+
+.pattern3 .choices {
+  padding-top: 20%;
+}
+
+.pattern4 .choices {
+  padding-top: 20%;
+}
+
+
+
+
+
+.resultImages {
+  position: absolute;
+  z-index: 1;
+}
+
+.resultImages2 {
+  position: absolute;
+  top: 200px;
+  left: 60%;
+  
+
+  z-index: 1;
+}
+
+.panels,.pillowFB {
+    font-family: 'Montserrat', sans-serif;
+  font-size: 28px;
+  margin-top: 4%;
+  text-align: center;
+}
+
+.pillowPlaySwatches {
+  position: absolute;
+  top: 200px;
+  left: 80%;
+
+}

@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pillow Palette</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Heebo:100|Montserrat:900|Oswald|Playfair+Display" rel="stylesheet">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+  </head>
+
+  <body>
+    
+        <!-- /////Step 3///////// -->
+    <div class= "container-fluid5" id= "step3">   
+      <div class= "flexcontainer"> 
+        <div class= "pageTitle col-sm-12">
+          <header class= "titleHeaderSt3">PICK YOUR PATTERN</header>
+          <p class= "subtitleSt3">4 different options, more patterns to arrive soon!</p>
+
+            <section class= "pattern1 col-sm-3 pillowPattern">
+              <header><p class= "choices">CHOICE 1</p></header>
+              <a href="#step4" data-pattern="pattern 1"><img class= "patternImages" id= "patternOne" src="images/pillow_pattern-1.png"></a>
+            </section>
+
+            <section class= "pattern2 col-sm-3 pillowPattern">
+              <header><p class= "choices">CHOICE 2</p></header>
+              <a href="#step4" data-pattern="pattern 2"><img class= "patternImages" id="patternTwo" src="images/pillow_pattern-2.png"></a>
+            </section>
+
+            <section class= "pattern3 col-sm-3 pillowPattern">
+              <header><p class= "choices">CHOICE 3</p></header>
+              <a href="#step4" data-pattern="pattern 3"><img class= "patternImages" id="pattern3" src="images/pillow_pattern-3.png"></a>
+            </section>
+
+            </section>
+        </div>  
+      </div>
+    </div>
+
+
+    <!-- /////Step 4///////// -->
+    <div class= "container-fluid6" id= "step4">
+      <div class= "flexcontainer">
+        <div class= "pageTitle col-sm-12">
+          <header class= "titleHeaderSt4">PLAY WITH THE PALETTE</header>
+          <p class= "subtitleSt4">Select sections of the pattern, and choose your fabric!</p>
+
+          <div class= "pillowPalette javascript">
+          
+            <div class= "pillowResult col-sm-6">
+              <nav class = "pillowFB">
+                <a class= "front" href="frontimage">FRONT  </a> 
+                <a class= "back" href="backimage">  BACK</a>
+              </nav>
+              <div class= "pillowPlaySquareBlank">
+                <a href="#" class= "pillowPlayImg"><img class= "resultImages" src=""></a>
+
+              </div>
+                
+<!--               <map name="mapPattern1" id="mapPt1">
+                  <area alt="" title="" href="https://facebook.com" shape="poly" coords="472,41,290,645,219,648,148,654,107,660,55,674,26,679,22,673,22,660,33,615,44,531,48,333,48,208,34,175,31,132,31,118,26,94,13,44,11,26,19,18,60,23,95,34,146,38,227,44,381,45,423,46" />
+                  <area alt="" title="" href="https://github.com/guradamawang/pillow_palette" shape="poly" coords="499,38,560,32,616,22,650,15,665,17,667,29,653,58,647,89,639,203,638,312,643,360,642,401,386,332,476,41,387,335,476,43" />
+                  <area alt="" title="" href="http://learnlayout.com/position.html" shape="poly" coords="385,337,291,647,441,642,519,645,606,659,666,666,680,662,669,626,657,605,656,569,651,515,643,466,639,430,642,403" />
+                <img class="pillowPlayImg" src="images/Step4/white_pillow_with_patterns/Pattern1.png" alt="" usemap="#mapPattern1" />
+              </map> -->
+
+
+
+
+
+///PANEL IMG MAPPING this works/////
+
+<!-- var pillowBlank1 = '<map name="mapPattern1" id="mapPt1"><area alt="" title="" href="https://facebook.com" shape="poly" coords="472,41,290,645,219,648,148,654,107,660,55,674,26,679,22,673,22,660,33,615,44,531,48,333,48,208,34,175,31,132,31,118,26,94,13,44,11,26,19,18,60,23,95,34,146,38,227,44,381,45,423,46" /><area alt="" title="" href="https://github.com/guradamawang/pillow_palette" shape="poly" coords="499,38,560,32,616,22,650,15,665,17,667,29,653,58,647,89,639,203,638,312,643,360,642,401,386,332,476,41,387,335,476,43" /><area alt="" title="" href="http://learnlayout.com/position.html" shape="poly" coords="385,337,291,647,441,642,519,645,606,659,666,666,680,662,669,626,657,605,656,569,651,515,643,466,639,430,642,403" /><img class="pillowPlayImg" src="images/Step4/white_pillow_with_patterns/Pattern1.png" alt="" usemap="#mapPattern1" /></map>';
+var pillowBlank2 = '<map name="mapPattern2" id="mapPt2"><area alt="" title="" href="https://www.youtube.com" shape="poly" coords="232,48,165,43,140,39,116,39,94,37,72,29,46,23,29,21,19,20,12,29,12,43,17,71,28,108,30,118,32,148,35,179,43,197,48,211,46,222,45,259,48,299,48,344,48,405,46,436,46,480,44,509,43,541,38,578,36,599,29,617,28,631,23,650,19,664,21,678,34,681,60,675,109,661,170,656,220,652,277,646,318,647,354,649,407,647,446,643,466,643" /><area alt="" title="" href="https://www.google.com" shape="poly" coords="536,33,331,299,466,645,514,646,561,650,597,659,644,666,667,669,674,666,679,655,676,644,660,607,655,593,657,573,659,546,652,511,648,486,643,452,641,417,644,384,644,347,640,313,636,263,641,193,647,165,648,106,650,67,661,45,668,31,666,20,660,13,636,18,611,23,579,30" /><area alt="" title="" href="https://www.youtube.com" shape="poly" coords="533,33,500,38,464,46,437,46,410,48,387,49,355,46,318,44,280,46,252,46,234,46,331,297" /><img class="pillowPlayImg" src="images/Step4/white_pillow_with_patterns/Pattern2.png" alt="" usemap="#mapPattern2" /></map>';
+var pillowBlank3 = '<map name="mapPattern3" id="mapPt3"><area alt="" title="" href="#" shape="poly" coords="225,43,157,39,112,36,89,33,48,21,24,18,14,21,9,32,18,68,29,111,31,126,33,166,41,193,47,208,45,243,47,287,48,348,47,426,46,470,44,530,39,575,31,611,28,631,21,654,18,669,21,677,35,680,64,673,99,663,148,655,189,654,226,651" /><area alt="" title="" href="#" shape="poly" coords="227,44,258,45,285,44,312,42,338,43,367,46,392,46,436,46,453,44,453,642,445,643,423,645,409,647,395,645,385,648,371,649,356,647,336,647,319,645,305,644,290,644,271,646,256,647,240,650,228,652" /><area alt="" title="" href="#" shape="poly" coords="455,46,477,42,518,35,549,32,588,28,617,22,647,15,657,14,663,17,667,25,665,36,658,51,652,63,648,67,648,99,646,131,646,156,643,179,640,196,637,217,637,246,633,259,637,283,640,315,639,333,644,351,643,391,641,415,640,435,643,457,647,479,649,499,654,523,656,540,657,555,656,567,654,582,655,596,655,603,666,620,673,639,677,654,675,665,667,667,653,667,633,664,617,661,594,658,576,654,553,650,524,646,501,645,472,643,462,643,453,644" /><img class="pillowPlayImg" src="images/Step4/white_pillow_with_patterns/Pattern3.png" alt="" usemap="#mapPattern3" /></map>';
+
+
+
+
+ -->
+
+
+<!--               </div>
+              <div class= "pillowPlaySquarePanels">
+                <a href="#" class= "squarePanel--1">></a>
+
+                <a href="#" class= "squarePanel--2"><img class= "resultImages" src="images/Step4/Pattern1_swatches%20/Pattern1_panel2_swatches/WHITE.png"></a>
+
+                <a href="#" class= "squarePanel--3"><img class= "resultImages" src="images/Step4/Pattern1_swatches%20/Pattern1_panel3_swatches/PINK.png"></a>
+              </div>
+            </div> -->
+
+              <nav class = "panels">
+                <a class= "panel1" href="panel1swatches">PANEL 1</a> 
+                <a class= "panel2" href="panel2swatches">PANEL 2</a>
+                <a class= "panel3" href="panel3swatches">PANEL 3</a>
+              </nav>
+<!--             <div id="LOL" class= "pillowPlaySwatches col-sm-6 resultImages2 >  
+
+              <a href="#"><img class= "sw1" src="images/Swatch1_CottonBlue.png"></a>
+              <a href="#"><img class= "sw2" src="images/Swatch2_LinenMint.png"></a>
+              <a href="#"><img class= "sw3" src="images/Swatch3_VeltetRose.png"></a>
+              <a href="#"><img class= "sw4" src="images/Swatch4_VelvelYellow.png"></a>
+              <a href="#"><img class= "sw5" src="images/Swatch5_CottonWhite.png"></a>
+              <a href="#"><img class= "sw6" src="images/Swatch6_CottonBlack.png"></a>
+            </div> -->
+
+            <div id="Pt1Pn1Swatches" class= "pillowPlaySwatches col-sm-6 resultImages2 >  
+
+              <a href="#pt1pn1Blue"><img class= "sw1" src="images/Swatch1_CottonBlue.png"></a>
+              <a href="#"><img class= "sw2" src="images/Swatch2_LinenMint.png"></a>
+              <a href="#"><img class= "sw3" src="images/Swatch3_VeltetRose.png"></a>
+              <a href="#"><img class= "sw4" src="images/Swatch4_VelvelYellow.png"></a>
+              <a href="#"><img class= "sw5" src="images/Swatch5_CottonWhite.png"></a>
+              <a href="#"><img class= "sw6" src="images/Swatch6_CottonBlack.png"></a>
+            </div>
+
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+  <!-- Latest compiled and minified JavaScript -->
+    <script src="js/jquery-2.1.4.js"></script>
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+    <script type="text/javascript" src="js/main.js"></script>
+
+
+  </body>
+</html>
